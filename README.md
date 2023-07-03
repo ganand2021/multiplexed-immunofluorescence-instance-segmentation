@@ -4,21 +4,18 @@
 
 1. Clone the Repository
 2. CD into the directory
-3. Run the following code in the command line
-\
+3. Run the following code in the command line  
 ```
 pip install -r requirements.txt
-```
-\
-*If the packages need to removed, run the following code in the command line*
-\
+```  
+*If the packages need to removed, run the following code in the command line*  
 ```
 pip uninstall -r requirements.txt -y
 ```
 ---
 ### Usage
-Presently, the trained models are provided as an API using FastAPI and can be used for inference after locally deploying the server by following code in the terminal:
-\
+Currently, our deployed models are accessible through an API built with FastAPI. To utilize them for inference, you can locally deploy the server by executing the following code in the terminal:
+
 ```
 uvicorn app:app --reload
 ```
