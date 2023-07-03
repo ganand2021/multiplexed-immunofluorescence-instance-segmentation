@@ -1,15 +1,16 @@
+fastapi==0.99.1
+matplotlib==3.6.3
 monai==1.2.0
-# torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+numpy==1.24.1
+Requests==2.31.0
+scikit_image==0.21.0
+tifffile==2023.4.12
 torch==2.0.1
 torchaudio==2.0.2
 torchvision==0.15.2
 scikit-learn==1.2.0
-scikit-image==0.21.0
-matplotlib==3.6.3
 tqdm==4.64.1
-numpy==1.24.1
 pandas==1.5.3
 imageio==2.31.1
 Pillow==9.4.0
-fastapi==0.92.0
 uvicorn==0.20.0
