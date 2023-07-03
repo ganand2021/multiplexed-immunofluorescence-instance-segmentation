@@ -6,16 +6,22 @@
 2. CD into the directory
 3. Run the following code in the command line
 \
-`pip install -r requirements.txt`
-
+```
+pip install -r requirements.txt
+```
+\
 *If the packages need to removed, run the following code in the command line*
 \
-`pip uninstall -r requirements.txt -y`
+```
+pip uninstall -r requirements.txt -y
+```
 ---
 ### Usage
 Presently, the trained models are provided as an API using FastAPI and can be used for inference after locally deploying the server by following code in the terminal:
 \
-`uvicorn app:app --reload`
+```
+uvicorn app:app --reload
+```
 
 ### Use Cases
 
