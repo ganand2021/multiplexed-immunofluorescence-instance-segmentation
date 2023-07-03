@@ -59,7 +59,7 @@ async def segmentation(image: UploadFile):
     image = image.to(device)
     with torch.no_grad():
         output = segmentation_model(image.unsqueeze(0))[0]
-    output = np.array(output.detach().numpy()).tolist()
+    output = np.array(output.detach().cpu().numpy()).tolist()
     return {"result": output}
 
 @app.post("/classification")
