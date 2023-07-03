@@ -1,17 +1,20 @@
 # multiplexed-immunofluorescence-instance-segmentation
----
+
 ### Installation
 
 1. Clone the Repository
 2. CD into the directory
 3. Run the following code in the command line
+\
 `pip install -r requirements.txt`
 
 *If the packages need to removed, run the following code in the command line*
+\
 `pip uninstall -r requirements.txt -y`
-
+---
 ### Usage
 Presently, the trained models are provided as an API using FastAPI and can be used for inference after locally deploying the server by following code in the terminal:
+\
 `uvicorn app:app --reload`
 
 ### Use Cases
@@ -60,10 +63,12 @@ Presently, the trained models are provided as an API using FastAPI and can be us
     result = response.json()
     print(result)
 ```
-
+---
 ### Data
 
 All the data used for this project has been sourced from the following paper and it's associated dataset link.
 
 [Cross-platform dataset of multiplex fluorescent cellular object image annotations](https://www.nature.com/articles/s41597-023-02108-z)
+\
 [Dataset](https://www.synapse.org/#!Synapse:syn27624812/files/)
+---
