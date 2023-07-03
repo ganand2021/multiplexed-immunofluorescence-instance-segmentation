@@ -2,13 +2,15 @@
 
 ### Installation
 
-1. Clone the Repository
-2. CD into the directory
-3. Run the following code in the command line  
+To begin the installation process, please follow these steps:
+
+1. Clone the repository containing the required code.
+2. Change your working directory to the location where the repository has been cloned.
+3. Execute the provided code in the command line interface.  
 ```
 pip install -r requirements.txt
 ```  
-*If the packages need to removed, run the following code in the command line*  
+*If you need to uninstall the packages, please execute the following code in the command line interface.*  
 ```
 pip uninstall -r requirements.txt -y
 ```
@@ -22,7 +24,7 @@ uvicorn app:app --reload
 
 ### Use Cases
 
-##### Segmentation Model
+#### Segmentation Model
 ```
     import requests
     import matplotlib.pyplot as plt
@@ -39,7 +41,7 @@ uvicorn app:app --reload
     plt.show()
 ```
 
-##### Classification Model
+#### Classification Model
 ```
     import requests
 
@@ -52,7 +54,7 @@ uvicorn app:app --reload
     print(result)
 ```
 
-##### Classification Model
+#### Classification Model
 ```
     import requests
     import matplotlib.pyplot as plt
@@ -69,7 +71,7 @@ uvicorn app:app --reload
 ---
 ### Data
 
-All the data used for this project has been sourced from the following paper and it's associated dataset link.
+The data utilized for this project has been acquired from the following research paper, along with its associated dataset link.
 
 _[Cross-platform dataset of multiplex fluorescent cellular object image annotations](https://www.nature.com/articles/s41597-023-02108-z)_  
 _[Dataset](https://www.synapse.org/#!Synapse:syn27624812/files/)_  
