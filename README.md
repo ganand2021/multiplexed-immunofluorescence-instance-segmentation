@@ -1,5 +1,18 @@
 # multiplexed-immunofluorescence-instance-segmentation
 
+### Description
+
+Obtaining cell annotations of tumor cells present several challenges and difficulties like Heterogeneity, Ambiguous cell boundaries, Lack of definitive markers, Evolution of tumor cells and Technical limitations to name a few. Addressing these difficulties requires advancements in imaging technologies, development of standardized annotation guidelines, improved automation and artificial intelligence (AI) algorithms for cell identification, and collaboration among experts to establish consensus in cell annotation practices.
+
+By utilizing advanced deep learning algorithms, this project aims to provide accurate annotations for tumor cells within the images, enabling researchers and medical practitioners to gain valuable insights into the growth patterns and characteristics of tumors. The project's underlying motivation lies in hope that we're able to create product that can accelerate the diagnostic process, reduce human error, and enhancing the overall efficiency of healthcare process while treating such diseases.
+
+### Tech Stack
+
+- Python
+- PyTorch
+- NVIDIA MONAI
+- FastAPI
+
 ### Installation
 
 To begin the installation process, please follow these steps:
