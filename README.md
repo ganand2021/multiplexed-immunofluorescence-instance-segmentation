@@ -6,6 +6,7 @@ Obtaining cell annotations of tumor cells present several challenges and difficu
 
 By utilizing advanced deep learning algorithms, this project aims to provide accurate annotations for tumor cells within the images, enabling researchers and medical practitioners to gain valuable insights into the growth patterns and characteristics of tumors. The project's underlying motivation lies in hope that we're able to create product that can accelerate the diagnostic process, reduce human error, and enhancing the overall efficiency of healthcare process while treating such diseases.
 
+---
 ### Tech Stack
 
 - [Python](https://www.python.org/)
@@ -15,6 +16,7 @@ By utilizing advanced deep learning algorithms, this project aims to provide acc
 - [napari](https://napari.org/stable/)
 - [ImageJ](https://imagej.net/ij/docs/index.html)
 
+---
 ### Installation
 
 To begin the installation process, please follow these steps:
