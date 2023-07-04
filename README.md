@@ -98,6 +98,6 @@ uvicorn app:app --reload
 
 The data utilized for this project has been acquired from the following research paper, along with its associated dataset link.
 
-_[Cross-platform dataset of multiplex fluorescent cellular object image annotations](https://www.nature.com/articles/s41597-023-02108-z)_  
-_[Dataset](https://www.synapse.org/#!Synapse:syn27624812/files/)_  
+- [Cross-platform dataset of multiplex fluorescent cellular object image annotations](https://www.nature.com/articles/s41597-023-02108-z)  
+- [Dataset](https://www.synapse.org/#!Synapse:syn27624812/files/)  
 ---
