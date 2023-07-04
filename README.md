@@ -37,7 +37,11 @@ uvicorn app:app --reload
 
 ### Use Cases
 
-#### Segmentation Model
+#### Segmentation Model  
+| Data | Description | File Information |
+| ----------- | ----------- | ----------- |
+| Input | Cellular Structure | TIFF Image (.tif) of the dimensions (400, 400, 8) |
+| Output | Mask Image of Cell Annotations | Single Channel Image of dimensions (400, 400) |
 ```
     import requests
     import matplotlib.pyplot as plt
@@ -54,7 +58,11 @@ uvicorn app:app --reload
     plt.show()
 ```
 
-#### Classification Model
+#### Classification Model  
+| Data | Description | File Information |
+| ----------- | ----------- | ----------- |
+| Input | Mask Image of Cell Annotations | Single Channel Image of dimensions (400, 400) |
+| Output | Tumor Classification | String |
 ```
     import requests
 
@@ -67,7 +75,11 @@ uvicorn app:app --reload
     print(result)
 ```
 
-#### Classification Model
+#### Combined Model  
+| Data | Description | File Information |
+| ----------- | ----------- | ----------- |
+| Input | Cellular Structure | TIFF Image (.tif) of the dimensions (400, 400, 8) |
+| Output | Tumor Classification | String |
 ```
     import requests
     import matplotlib.pyplot as plt
