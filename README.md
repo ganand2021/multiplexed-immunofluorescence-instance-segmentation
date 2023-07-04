@@ -12,6 +12,8 @@ By utilizing advanced deep learning algorithms, this project aims to provide acc
 - [PyTorch](https://pytorch.org/docs/stable/index.html)
 - [NVIDIA MONAI](https://docs.monai.io/en/stable/)
 - [FastAPI](https://fastapi.tiangolo.com/)
+- [napari](https://napari.org/stable/)
+- [ImageJ](https://imagej.net/ij/docs/index.html)
 
 ### Installation
 
