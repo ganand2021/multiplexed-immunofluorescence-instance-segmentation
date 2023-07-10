@@ -54,7 +54,7 @@ uvicorn app:app --reload
     URL_ENDPOINT = 'http://127.0.0.1:8000'
     segmentation_sample_path = 'path_to_tiff_image'
 
-    response = requests.post("http://localhost:8000/segmentation", files = {'image': open(segmentation_sample_path, 'rb')})
+    response = requests.post(URL_ENDPOINT+"/segmentation", files = {'image': open(segmentation_sample_path, 'rb')})
 
     result = np.array(response.json()['result']).squeeze()
     plt.imshow(result, cmap='gray')
@@ -73,7 +73,7 @@ uvicorn app:app --reload
     URL_ENDPOINT = 'http://127.0.0.1:8000'
     classification_sample_path = 'path_to_png_image'
 
-    response = requests.post("http://localhost:8000/classification", files = {'image': open(classification_sample_path, 'rb')})
+    response = requests.post(URL_ENDPOINT+"/classification", files = {'image': open(classification_sample_path, 'rb')})
 
     result = response.json()
     print(result)
@@ -92,7 +92,7 @@ uvicorn app:app --reload
     URL_ENDPOINT = 'http://127.0.0.1:8000'
     combined_sample_path = 'path_to_tiff_image'
 
-    response = requests.post("http://localhost:8000/combined", files = {'image': open(combined_sample_path, 'rb')})
+    response = requests.post(URL_ENDPOINT+"/combined", files = {'image': open(combined_sample_path, 'rb')})
 
     result = response.json()
     print(result)
