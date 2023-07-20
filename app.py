@@ -79,7 +79,7 @@ async def classification(image: UploadFile):
         growth_rate=32, 
         block_config=(6, 12, 24, 16), 
     )
-    classification_state_dict = './models/classification_model/classification_model_monai_densenet_2023-07-02_03-54-13.pth'
+    classification_state_dict = './models/classification_model/classification_model_monai_densenet_2023-07-19_21-49-49.pth'
     classification_model.load_state_dict(torch.load(classification_state_dict, map_location=device))
     classification_model.to(device)
 
@@ -126,7 +126,7 @@ async def combined(image: UploadFile):
         growth_rate=32, 
         block_config=(6, 12, 24, 16), 
     )
-    classification_state_dict = './models/classification_model/classification_model_monai_densenet_2023-07-02_03-54-13.pth'
+    classification_state_dict = './models/classification_model/classification_model_monai_densenet_2023-07-19_21-49-49.pth'
     classification_model.load_state_dict(torch.load(classification_state_dict, map_location=device))
     classification_model.to(device)
 
